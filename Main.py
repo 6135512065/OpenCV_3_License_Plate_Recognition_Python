@@ -27,7 +27,7 @@ def main():
         return                                                          # and exit program
     # end if
 
-    imgOriginalScene  = cv2.imread("ImagesCar/4.jpg")               # open image
+    imgOriginalScene  = cv2.imread("ImagesCar/Test4.jpg")               # open image
 
     if imgOriginalScene is None:                            # if image was not read successfully
         print("\nerror: image not read from file \n\n")  # print error message to std out
